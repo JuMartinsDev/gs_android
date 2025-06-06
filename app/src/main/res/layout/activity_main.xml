@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3">
+
+<TextView
+        android:text="ClimApp - Registro de Eventos Extremos"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/editLocal"
+        android:hint="Nome do Local (Cidade/Bairro)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/editTipo"
+        android:hint="Tipo do Evento Extremo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/editImpacto"
+        android:hint="Grau de Impacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/editData"
+        android:hint="Data (dd/mm/aaaa)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/editAfetadas"
+        android:hint="Número de Pessoas Afetadas"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/btnIncluir"
+        android:text="Incluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:textColor="#FFFFFF"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerEventos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnSobre"
+        android:text="Participantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/et_filtro_tipo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Filtrar por tipo" />
+
+        <Button
+            android:id="@+id/btn_limpar_filtro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Limpar"
+            android:background="#00BCD4"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>
