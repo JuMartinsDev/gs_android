@@ -1,27 +1,48 @@
 # GS Android  
-Julia Martins 98601  
-Ana Luisa Giaquinto  99348  
+Julia Martins de Almeida Antunes RM98601  
+Ana Luisa Giaquinto Zólio RM99348  
 
 ## Exemplos do Funcionamento
 
-Aqui estão algumas imagens que mostram como o projeto aparece na prática:
+Imagens exemplificando o uso do ClimApp:
 
-Projeto é executado
+Tela 01 - Tela incial do ClimApp
 
-![Interface Android simulada 1](https://github.com/user-attachments/assets/c8f83178-7a8b-42b9-8819-dc9245bb5d73)
+![image](https://github.com/user-attachments/assets/2f5c8491-e7a9-4e62-bccf-fe6d9e6e94a9)
 
-Tela após evento ser adicionado - volta para a tela de adicionar outro
+Tela 02 - Tela logo após a inclusão do primeiro evento extremo
 
-![Interface Android simulada 2](https://github.com/user-attachments/assets/1fe4229b-a563-4481-a36f-d8085507ca33)
+![image](https://github.com/user-attachments/assets/670c4237-cfb4-4410-9600-f27bf9dae7da)
 
-Contém botão de excluir evento
+Tela 03 - Tela após a inclusão do segundo evento extremo
 
-![Screenshot (4)](https://github.com/user-attachments/assets/af1aebc5-5c27-4c40-90e7-f95a81d32881)
+![image](https://github.com/user-attachments/assets/7e6b5806-fedb-4349-b2ed-ce6a2292e897)
 
-Evento excluido, sobrando só um 
+Tela 04 - Tela após a exclusão do evento extremo 2
 
-![Screenshot (5)](https://github.com/user-attachments/assets/e3aa8d9a-8884-42d7-a68c-a449da9c5043)
+![image](https://github.com/user-attachments/assets/2a7e9369-32e2-4284-b6a6-c0cec962eb99)
 
-Não permite adicionar o evento se não tiver todas as informações
+Tela 5 - Tela após a tentativa de incluir um evento extremo sem todos os dados - Exemplo de funcionamento de validação de dados
 
-![Screenshot (6)](https://github.com/user-attachments/assets/90138fb5-f3c8-45ae-9948-364ca37879d8)
+![image](https://github.com/user-attachments/assets/641dc644-7e75-4fee-8e0d-c1d2dc8a1a44)
+
+Tela 6 - Tela após a tentativa de incluir um evento extremo com 0 pessoas afetadas - Exemplo de validação de dados do campo
+
+![image](https://github.com/user-attachments/assets/8667f2f1-cf2d-477a-a3bf-7743d87a8b68)
+
+Tela 7 - Tela ao clicar no botão participantes, ao clicar em voltar retornamos para tela incial
+
+![image](https://github.com/user-attachments/assets/e17d15d0-876d-47cd-8901-d7778ae1854b)
+
+Tela 8 - Tela antes do filtro do tipo de evento extremo
+
+![image](https://github.com/user-attachments/assets/140900bd-f820-4c82-a594-1d98f42b1755)
+
+Tela 9 - Tela após a filtragem por tipo de evento extremo
+
+![image](https://github.com/user-attachments/assets/5f4c23a4-7905-4586-86a4-f009e8c9aecc)
+
+Tela 10 - Tela após clicar no botão limpar (o filtro é removido e voltam todos os eventos)
+
+![image](https://github.com/user-attachments/assets/38339f81-161c-4d8c-8d18-5ff9258a2d0e)
+
