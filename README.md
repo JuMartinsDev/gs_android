@@ -1,10 +1,29 @@
-# GS Android  
-Julia Martins de Almeida Antunes RM98601  
-Ana Luisa Giaquinto Zólio RM99348  
+# 🌪️ GS Android – ClimApp - Gerenciador de Eventos Extremos
 
-## Exemplos do Funcionamento
+**GS Android - ClimApp** é um aplicativo Android desenvolvido para **monitorar, registrar e gerenciar eventos extremos** como enchentes, deslizamentos e outros desastres naturais. Seu objetivo é auxiliar instituições, voluntários e usuários comuns no controle e visualização desses eventos, promovendo uma resposta mais rápida e eficaz.
 
-Imagens exemplificando o uso do ClimApp:
+---
+
+## 🔍 Funcionalidades principais
+
+- 📍 **Registro de eventos extremos:** permite cadastrar novos eventos com informações como tipo (enchente, incêndio etc.), localização e descrição.
+- 🗺️ **Visualização geográfica:** integração com mapas para exibir os eventos registrados por localização.
+- 🧾 **Listagem e filtros:** apresenta todos os eventos registrados em uma lista, com opções de filtro por tipo e data.
+- 📝 **Edição e remoção de eventos:** permite atualizar ou excluir registros existentes.
+- 📶 **Integração futura com APIs externas:** base preparada para conectar com bases de dados meteorológicas ou sistemas públicos de alerta.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- **Kotlin** – linguagem principal
+- **Android SDK** – framework nativo
+- **Jetpack Components** – para arquitetura moderna (ViewModel, LiveData)
+- **Google Maps API** *(opcional)* – para visualização dos eventos no mapa
+
+---
+
+## 🚀 Funcionamento
 
 Tela 01 - Tela incial do ClimApp
 
